@@ -1,14 +1,5 @@
-/* Copyright 2019 Diffblue Limited. All Rights Reserved. */
 package com.diffblue;
 
-/**
- * This class implements some static string utility methods.
- *
- * To test all branches of these methods, the test generator needs to produce
- * input strings with specific properties (palindromes, whitespace, uppercase &
- * so on). This class has coverage for every line, which means the generator has
- * successfully identified suitable parameters.
- */
 public class StringUtility {
 
     public static boolean isPalindrome(String input) {
